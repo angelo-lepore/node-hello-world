@@ -12,3 +12,6 @@ const apiUrl = "https://lanciweb.github.io/demo/api/pictures/";
 axios.get(apiUrl).then((res) => {
   console.log(res.data);
 });
+
+console.log(process.argv[2]);
+console.log("Hello " + process.argv[2]);
